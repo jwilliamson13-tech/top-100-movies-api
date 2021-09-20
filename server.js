@@ -23,7 +23,7 @@ app.use(cookieParser(process.env.COOKIE_SECRET));
 app.use(passport.initialize())
 
 //Process .env PORT is used for Heroku deployment
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 80;
 
 const whiteList = process.env.WHITELISTED_DOMAINS ? process.env.WHITELISTED_DOMAINS.split(",") : [];
 
