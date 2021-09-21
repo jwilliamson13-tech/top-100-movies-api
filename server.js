@@ -8,7 +8,7 @@ const passport = require("passport")
 
 process.env.NODE_ENV = 'production';
 
-if (process.env.NODE_ENV !== "production") {
+if (process.env.NODE_ENV == "production") {
   // Load environment variables from .env file
   require("dotenv").config()
 }
