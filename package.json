@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jwilliamson13-tech/top-100-movies.git"
+    "url": "git+https://github.com/jwilliamson13-tech/top-100-movies-api.git"
   },
   "author": "Joshua Williamson",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jwilliamson13-tech/top-100-movies/issues"
+    "url": "https://github.com/jwilliamson13-tech/top-100-movies-api/issues"
   },
-  "homepage": "https://github.com/jwilliamson13-tech/top-100-movies#readme",
+  "homepage": "https://github.com/jwilliamson13-tech/top-100-movies-api#readme",
   "dependencies": {
     "axios": "^0.21.1",
     "bcrypt": "^5.0.1",

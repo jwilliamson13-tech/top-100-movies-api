@@ -6,6 +6,8 @@ const cors = require("cors");
 const cookieParser = require("cookie-parser");
 const passport = require("passport")
 
+process.env.NODE_ENV = 'production';
+
 if (process.env.NODE_ENV !== "production") {
   // Load environment variables from .env file
   require("dotenv").config()
