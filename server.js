@@ -13,8 +13,8 @@ if (process.env.NODE_ENV !== "production") {
   require("dotenv").config()
 }
 
-require("./strategies/JwtStrategy")
-require("./strategies/LocalStrategy")
+require("./strategies/jwtStrategy")
+require("./strategies/localStrategy")
 require("./authenticate")
 
 //Express
